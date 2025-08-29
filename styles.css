@@ -14,32 +14,34 @@ body {
   margin: 5rem;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 600px;
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 5vh;
   margin-bottom: 5rem;
   text-align: center;
   color: black;
 }
 
 h2 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 3vh;
   color: black;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1vhrem;
 }
 
 label {
   display: block;
-  font-size: 1rem;
-  margin: 0.5rem 0;
+  font-size: 2vh;
+  margin: .8rem 0;
   cursor: pointer;
 }
 
@@ -75,12 +77,6 @@ label {
   cursor: pointer;
 }
 
-#result {
-  margin-top: 2rem;
-  padding: 1rem;
-  border-top: 1px solid black;
-}
-
 #result h2 {
   margin-top: 0;
   color: black;
@@ -92,4 +88,18 @@ ul {
 
 li {
   margin: 0.4rem 0;
+}
+
+.resultado {
+  border-bottom: 1px solid #ddd; /* línea entre resultados */
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.resultado:last-child {
+  border-bottom: none; /* elimina la línea final */
+}
+.resultado h3 {
+  margin: 0;
+  color: black;
 }

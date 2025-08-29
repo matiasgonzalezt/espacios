@@ -5,6 +5,7 @@
 /**
  * Utilidades
  */
+
 function norm(s) {
   return (s ?? "")
     .toString()
@@ -302,7 +303,7 @@ function renderResults() {
       h3.textContent = "Alternativas cercanas";
       container.appendChild(h3);
 
-      cercanos.forEach(({ esp, cap }) => {
+      cercanos.forEach(({ esp }) => {
         const card = document.createElement("div");
         card.className = "resultado";
         card.innerHTML = `
@@ -323,6 +324,8 @@ function renderResults() {
         <p><b>Capacidad:</b> ${esp.capacidad.min != null ? `${esp.capacidad.min}-${esp.capacidad.max}` : esp.capacidad}</p>
         <p><b>Privacidad:</b> ${toArray(esp.privacidad).join(", ")}</p>
         <p><b>Equipamiento:</b> ${toArray(esp.equipamiento).join(", ")}</p>
+        <p>${esp.descripcion || ""}</p>
+        <img src="imagenes/${esp.imagen}" alt="${esp.nombre}" class="resultado-img">
       `;
       container.appendChild(card);
     });

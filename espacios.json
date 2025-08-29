@@ -9,32 +9,32 @@
   },
   {
     "nombre": "Espacio de usos múltiples",
-    "capacidad": "8-20",
-    "privacidad": "semi",
+    "capacidad": { "min": 8, "max": 20 },
+    "privacidad": ["semi"],
     "equipamiento": ["sillas", "mesas", "pizarras", "proyector"],
     "descripcion": "Un salón amplio y flexible en planta baja, ideal para talleres, charlas y encuentros comunitarios.",
     "imagen": "usos_multiples.png"
   },
   {
     "nombre": "Talleres de reparación",
-    "capacidad": "2-4",
-    "privacidad": "semi",
+    "capacidad": { "min": 2, "max": 4 },
+    "privacidad": ["semi"],
     "equipamiento": ["mesas", "lugares de guardado", "herramientas"],
     "descripcion": "Ubicados en la planta baja, con acceso directo desde la calle. Pensados para reparar bicicletas, electrodomésticos y otros objetos.",
     "imagen": "taller_reparacion.png"
   },
   {
     "nombre": "Talleres de manualidades",
-    "capacidad": "4-8",
-    "privacidad": "semi",
+    "capacidad": { "min": 4, "max": 8 },
+    "privacidad": ["semi"],
     "equipamiento": ["mesas", "sillas", "pizarras", "lugares de guardado"],
     "descripcion": "Espacios en la primera planta para actividades de artes, costura o carpintería liviana.",
     "imagen": "taller_manualidades.png"
   },
   {
     "nombre": "Cocina comunitaria",
-    "capacidad": "4-8",
-    "privacidad": "semi",
+    "capacidad": { "min": 4, "max": 8 },
+    "privacidad": ["semi"],
     "equipamiento": ["mesas", "sillas", "pizarras", "hornos"],
     "descripcion": "Un espacio equipado con todo lo necesario para cocinar en grupo.",
     "imagen": "cocina_comunitaria.png"
