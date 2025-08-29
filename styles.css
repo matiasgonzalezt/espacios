@@ -29,13 +29,17 @@ h1 {
 h2 {
   font-size: 3vh;
   color: black;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  }
+h2::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ddd;
+  width: 20%; /* Cambia el largo de la línea */
+  margin: 1rem auto 0 auto;
 }
 
 p {
-  font-size: 1vhrem;
+  font-size: 1vh;
 }
 
 label {
@@ -72,7 +76,7 @@ button:disabled {
 }
 
 label {
-  margin-left: 0.4rem;
+  margin-left: 1vh;
   margin-right: 1rem;
   cursor: pointer;
 }
