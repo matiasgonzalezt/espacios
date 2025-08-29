@@ -76,7 +76,7 @@ button:disabled {
 }
 
 label {
-  margin-left: 1vh;
+  margin-left: 2vh;
   margin-right: 1rem;
   cursor: pointer;
 }
@@ -107,3 +107,4 @@ li {
   margin: 0;
   color: black;
 }
+
