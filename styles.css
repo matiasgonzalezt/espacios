@@ -1,0 +1,95 @@
+body {
+  font-family: Archivo, sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  background: white;
+  margin: 5rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+p {
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  margin: 2rem auto 0 auto;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  font-size: 1rem;
+  text-align: center;
+  width: fit-content;
+}
+
+button:hover {
+  background: red;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+label {
+  margin-left: 0.4rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+#result h2 {
+  margin-top: 0;
+  color: black;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin: 0.4rem 0;
+}
